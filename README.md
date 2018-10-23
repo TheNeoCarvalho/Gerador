@@ -3,7 +3,7 @@
 ##### Cria toda estrutura de diretórios de uma aplicação web básica
 
 # Instalando as dependências
-##### pip -r requeriments.txt
+##### pip install -r requeriments.txt
 
 # Dependências
 * wget => 3.2
