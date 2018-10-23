@@ -22,15 +22,13 @@ path = projectName
 
 os.mkdir(path+"/css")
 os.mkdir(path+"/js")
+os.mkdir(path+"/images")
 
 shutil.move("bootstrap.min.css", path+'/css')
 shutil.move("bootstrap.min.js", path+'/js')
 
 fileCSS = open(path+"/css/style.css", "w")
 fileCSS.close()
-
-fileJS = open(path+"/js/scripts.js", "w")
-fileJS.close()
 
 fileImage = open(path+"/images", "w")
 fileImage.close()
