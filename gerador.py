@@ -1,10 +1,10 @@
 import sys
 import glob
 import os
-import wget
+#import wget
 
 urlCSS = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-fileCSS = wget.doenload(urlCSS)
+#fileCSS = wget.doenload(urlCSS)
 
 params = sys.argv
 projectName = params[2]
@@ -28,7 +28,7 @@ fileType.write("<html lang=\"pt-br\"<head>\n")
 fileType.write("<meta charset=\"UTF-8\">\n")
 fileType.write("<title>"+projectName+"</title>\n")
 fileType.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n")
-fileType.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n")
+fileType.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n")
 fileType.write("</head>\n")
 fileType.write("<body>\n")
 fileType.write("\n")
