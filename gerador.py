@@ -32,6 +32,9 @@ fileCSS.close()
 fileJS = open(path+"/js/scripts.js", "w")
 fileJS.close()
 
+fileImage = open(path+"/images", "w")
+fileImage.close()
+
 fileType = open(path+"/index."+projectType, "w")
 
 fileType.write("<!DOCTYPE html>\n")

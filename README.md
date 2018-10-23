@@ -2,7 +2,7 @@
 ##### Gerador automatico de arquivos
 ##### Cria toda estrutura de diretórios de uma aplicação web básica
 
-# Intalando as dependências
+# Instalando as dependências
 ##### pip -r requeriments.txt
 
 # Dependências
@@ -14,3 +14,4 @@
 
 # Exemplo
 ##### ./gerador.py html app
+##### python gerador.py html app
